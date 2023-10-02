@@ -1,0 +1,80 @@
+.wrapper-alloda {
+  background-image: url("../assets/imgs/page1/section0 (2).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+.wrapper-alloda-logo {
+  position: absolute;
+  left: 40.2%;
+}
+
+.alloda-preview {
+  display: flex;
+  max-width: 1920px;
+  padding-top: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-shadow {
+  position: absolute;
+  margin-top: -382px;
+
+  img {
+    opacity: 0.9;
+  }
+}
+
+.alloda-preview_man {
+  padding-right: 24px;
+}
+
+.alloda-preview_box {
+  position: absolute;
+  z-index: 2;
+  top: 26%;
+  left: 28.7%;
+}
+
+.alloda-preview_girl,
+.alloda-preview_box,
+.alloda-preview_man {
+  img {
+    max-width: 100%;
+  }
+}
+
+.alloda-bottom {
+  position: absolute;
+  z-index: 2;
+  left: 25.5%;
+  bottom: 67px;
+  max-height: 100px;
+}
+
+.alloda-bottom_text {
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 19px;
+  }
+
+  span {
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}

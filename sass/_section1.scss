@@ -1,89 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.wrapper {
-  max-width: 1920px;
-  margin: 0 auto;
-}
-
-.wrapper-alloda {
-  background-image: url("../assets/imgs/page1/section0 (2).png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  text-align: center;
-  margin-bottom: -1px;
-}
-
-.wrapper-alloda-logo {
-  position: absolute;
-  left: 40.2%;
-}
-
-.alloda-preview {
-  display: flex;
-  max-width: 1920px;
-  padding-top: 16px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.img-shadow {
-  position: absolute;
-  margin-top: -382px;
-}
-.img-shadow img {
-  opacity: 0.9;
-}
-
-.alloda-preview_man {
-  padding-right: 24px;
-}
-
-.alloda-preview_box {
-  position: absolute;
-  z-index: 2;
-  top: 26%;
-  left: 28.7%;
-}
-
-.alloda-preview_girl img,
-.alloda-preview_box img,
-.alloda-preview_man img {
-  max-width: 100%;
-}
-
-.alloda-bottom {
-  position: absolute;
-  z-index: 2;
-  left: 25.5%;
-  bottom: 67px;
-  max-height: 100px;
-}
-
-.alloda-bottom_text h2 {
-  color: #fff;
-  text-align: center;
-  font-family: Roboto Condensed;
-  font-size: 42px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-bottom: 19px;
-}
-.alloda-bottom_text span {
-  color: #fff;
-  text-align: center;
-  font-family: "Roboto";
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 .wrapper-package {
   background-image: url("../assets/imgs/page2/section1.png");
   background-repeat: no-repeat;
@@ -102,14 +16,16 @@
   margin-left: 26px;
 }
 
-.alloda-package_preview-box h2 {
-  color: #416df4;
-  font-family: Roboto Condensed;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-top: 55px;
+.alloda-package_preview-box {
+  h2 {
+    color: #416df4;
+    font-family: Roboto Condensed;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 55px;
+  }
 }
 
 .alloda-package_preview-box {
@@ -178,11 +94,11 @@
 }
 
 .alloda-package_preview-line_img {
+  img {
+    width: 64px;
+    height: 64px;
+  }
   padding: 2px 0px 2px 4px;
-}
-.alloda-package_preview-line_img img {
-  width: 64px;
-  height: 64px;
 }
 
 .alloda-package_preview-line_text {
@@ -219,9 +135,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
   border-radius: 7px;
   background: #fcff00;
   padding: 12px 38px 9px 38px;
 }
-
-/*# sourceMappingURL=style.css.map */

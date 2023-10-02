@@ -83,6 +83,17 @@
   line-height: normal;
 }
 
+.preview-box_button:hover {
+  cursor: pointer;
+  background-color: #671d00;
+  color: #fff;
+}
+
+.alloda-package_preview_toShop:hover {
+  cursor: pointer;
+  background-color: #e9ff00;
+}
+
 @media (max-width: 1600px) {
   .alloda-preview_girl img,
   .alloda-preview_box img,

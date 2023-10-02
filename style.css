@@ -10,7 +10,7 @@
 }
 
 .wrapper-alloda {
-  background-image: url("../assets/imgs/page1/section0 (2).png");
+  background-image: url("./assets/imgs/page1/section0\ \(2\).png");
   background-repeat: no-repeat;
   position: relative;
   text-align: center;
@@ -159,7 +159,7 @@
   }
 }
 .wrapper-package {
-  background-image: url("../assets/imgs/page2/section1.png");
+  background-image: url("./assets/imgs/page2/section1.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

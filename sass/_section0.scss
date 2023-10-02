@@ -1,0 +1,175 @@
+.wrapper-alloda {
+  background-image: url("../assets/imgs/page1/section0 (2).png");
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: center;
+  margin-bottom: -1px;
+}
+
+.wrapper-alloda-logo {
+  position: absolute;
+  left: 40.2%;
+}
+
+.alloda-preview {
+  display: flex;
+  max-width: 1920px;
+  padding-top: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-shadow {
+  position: absolute;
+  margin-top: -382px;
+
+  img {
+    opacity: 0.9;
+  }
+}
+
+.alloda-preview_man {
+  padding-right: 24px;
+}
+
+.alloda-preview_box {
+  position: absolute;
+  z-index: 2;
+  top: 26%;
+  left: 28.7%;
+}
+
+.alloda-preview_girl,
+.alloda-preview_box,
+.alloda-preview_man {
+  img {
+    max-width: 100%;
+  }
+}
+
+.alloda-bottom {
+  position: absolute;
+  z-index: 2;
+  left: 25.5%;
+  bottom: 67px;
+  max-height: 100px;
+}
+
+.alloda-bottom_text {
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 19px;
+  }
+
+  span {
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1600px) {
+  .alloda-preview_girl,
+  .alloda-preview_box,
+  .alloda-preview_man,
+  .logo-img {
+    img {
+      max-width: 80%;
+    }
+  }
+  .alloda-preview_box {
+    left: 24%;
+  }
+  .wrapper-alloda-logo {
+    left: 38%;
+  }
+  .alloda-bottom {
+    bottom: 35px;
+    left: 20%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .alloda-preview_girl,
+  .alloda-preview_box,
+  .alloda-preview_man,
+  .logo-img {
+    img {
+      max-width: 60%;
+    }
+  }
+  .wrapper-alloda-logo {
+    left: 35%;
+  }
+  .alloda-preview_box {
+    left: 18%;
+  }
+  .alloda-bottom_text {
+    h2 {
+      font-size: 32px;
+    }
+
+    span {
+      font-size: 16px;
+    }
+  }
+
+  .alloda-bottom {
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .alloda-preview_girl,
+  .alloda-preview_man {
+    max-width: 100%;
+    img {
+      max-width: calc(50% - 5vw);
+    }
+  }
+
+  .wrapper-alloda-logo,
+  .alloda-preview_box,
+  .alloda-bottom {
+    margin: auto;
+    left: 15%;
+    right: calc(22% - 4vw);
+  }
+
+  .logo-img {
+    img {
+      max-width: 15%;
+    }
+  }
+
+  .alloda-preview_box {
+    img {
+      max-width: 35%;
+    }
+  }
+
+  .alloda-bottom_text {
+    h2 {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    span {
+      font-size: 0.7rem;
+    }
+  }
+  .alloda-bottom {
+    bottom: 2px;
+    left: 27%;
+  }
+}

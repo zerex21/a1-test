@@ -31,6 +31,7 @@
 .alloda-package_preview-box {
   margin-left: -145px;
   width: 632px;
+  margin-right: 15px;
 }
 
 .preview-box_button-container {
@@ -139,4 +140,54 @@
   border-radius: 7px;
   background: #fcff00;
   padding: 12px 38px 9px 38px;
+}
+
+@media (max-width: 1600px) {
+  .alloda-package-container {
+    display: block;
+    padding-bottom: 30px;
+  }
+
+  .alloda-package_img {
+    margin: auto;
+    text-align: center;
+  }
+
+  .alloda-package_preview-box {
+    margin: auto;
+  }
+}
+
+@media (max-width: 1300px) {
+  .alloda-package_img {
+    img {
+      max-width: 60%;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .alloda-package_preview-box {
+    width: 445px;
+    h2 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+  /* .alloda-package_preview-box {
+    margin: auto;
+  } */
+
+  .alloda-package_preview-box-description {
+    display: table;
+  }
+
+  .alloda-package_preview-line {
+    max-width: 460px;
+    align-items: center;
+  }
+
+  .alloda-package_preview-line_section2 {
+    max-width: 100px;
+  }
 }

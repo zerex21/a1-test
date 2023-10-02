@@ -1,7 +1,6 @@
 .wrapper-alloda {
   background-image: url("../assets/imgs/page1/section0 (2).png");
   background-repeat: no-repeat;
-  background-size: cover;
   position: relative;
   text-align: center;
   margin-bottom: -1px;
@@ -76,5 +75,101 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+  }
+}
+
+@media (max-width: 1600px) {
+  .alloda-preview_girl,
+  .alloda-preview_box,
+  .alloda-preview_man,
+  .logo-img {
+    img {
+      max-width: 80%;
+    }
+  }
+  .alloda-preview_box {
+    left: 24%;
+  }
+  .wrapper-alloda-logo {
+    left: 38%;
+  }
+  .alloda-bottom {
+    bottom: 35px;
+    left: 20%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .alloda-preview_girl,
+  .alloda-preview_box,
+  .alloda-preview_man,
+  .logo-img {
+    img {
+      max-width: 60%;
+    }
+  }
+  .wrapper-alloda-logo {
+    left: 35%;
+  }
+  .alloda-preview_box {
+    left: 18%;
+  }
+  .alloda-bottom_text {
+    h2 {
+      font-size: 32px;
+    }
+
+    span {
+      font-size: 16px;
+    }
+  }
+
+  .alloda-bottom {
+    bottom: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .alloda-preview_girl,
+  .alloda-preview_man {
+    max-width: 100%;
+    img {
+      max-width: calc(50% - 5vw);
+    }
+  }
+
+  .wrapper-alloda-logo,
+  .alloda-preview_box,
+  .alloda-bottom {
+    margin: auto;
+    left: 15%;
+    right: calc(22% - 4vw);
+  }
+
+  .logo-img {
+    img {
+      max-width: 15%;
+    }
+  }
+
+  .alloda-preview_box {
+    img {
+      max-width: 35%;
+    }
+  }
+
+  .alloda-bottom_text {
+    h2 {
+      font-size: 0.9rem;
+      margin-bottom: 0;
+    }
+
+    span {
+      font-size: 0.7rem;
+    }
+  }
+  .alloda-bottom {
+    bottom: 2px;
+    left: 27%;
   }
 }
